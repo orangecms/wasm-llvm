@@ -3,7 +3,6 @@ TARGET := wasm32
 all:
 	clang \
 		--target=$(TARGET) \
-		-O3 \
 		-flto \
 		-nostdlib \
 		-Wl,--no-entry \
