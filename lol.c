@@ -39,7 +39,7 @@ int lol(char* ptr) {
 int meh(char* ptr) {
   strcpy(
     ptr,
-    "from catipsum.com: Paw at beetle and eat it before it gets away"
+    "from catipsum.com: Paw at beetle and eat it before it gets away."
   );
   return 0;
 }
